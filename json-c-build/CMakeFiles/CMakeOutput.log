@@ -1,0 +1,1279 @@
+The system is: Linux - 5.15.0-57-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/3.16.3/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81b90/fast && /usr/bin/make -f CMakeFiles/cmTC_81b90.dir/build.make CMakeFiles/cmTC_81b90.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81b90.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81b90.dir/testCCompiler.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_81b90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81b90.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_81b90.dir/testCCompiler.c.o  -o cmTC_81b90 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_52137/fast && /usr/bin/make -f CMakeFiles/cmTC_52137.dir/build.make CMakeFiles/cmTC_52137.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPwmTF4.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o /tmp/ccPwmTF4.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_52137
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52137.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o  -o cmTC_52137 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52137' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoffzLC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52137 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52137' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_52137/fast && /usr/bin/make -f CMakeFiles/cmTC_52137.dir/build.make CMakeFiles/cmTC_52137.dir/build]
+  ignore line: [make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccPwmTF4.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c0c95c0b4209efec1c1892d5ff24030b]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o /tmp/ccPwmTF4.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_52137]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_52137.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o  -o cmTC_52137 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.1' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-Av3uEd/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_52137' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoffzLC.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_52137 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccoffzLC.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_52137] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_52137.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e321e/fast && /usr/bin/make -f CMakeFiles/cmTC_e321e.dir/build.make CMakeFiles/cmTC_e321e.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e321e.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e321e.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e321e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e321e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e321e.dir/CheckIncludeFile.c.o  -o cmTC_e321e  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4f08e/fast && /usr/bin/make -f CMakeFiles/cmTC_4f08e.dir/build.make CMakeFiles/cmTC_4f08e.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f08e.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_4f08e.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4f08e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f08e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4f08e.dir/CheckIncludeFile.c.o  -o cmTC_4f08e  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2e88f/fast && /usr/bin/make -f CMakeFiles/cmTC_2e88f.dir/build.make CMakeFiles/cmTC_2e88f.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e88f.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_2e88f.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2e88f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e88f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2e88f.dir/CheckIncludeFile.c.o  -o cmTC_2e88f  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b9b34/fast && /usr/bin/make -f CMakeFiles/cmTC_b9b34.dir/build.make CMakeFiles/cmTC_b9b34.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9b34.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_b9b34.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b9b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9b34.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b9b34.dir/CheckIncludeFile.c.o  -o cmTC_b9b34  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_13adf/fast && /usr/bin/make -f CMakeFiles/cmTC_13adf.dir/build.make CMakeFiles/cmTC_13adf.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13adf.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_13adf.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_13adf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13adf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_13adf.dir/CheckIncludeFile.c.o  -o cmTC_13adf  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a8b6b/fast && /usr/bin/make -f CMakeFiles/cmTC_a8b6b.dir/build.make CMakeFiles/cmTC_a8b6b.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8b6b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a8b6b.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a8b6b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8b6b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a8b6b.dir/CheckIncludeFile.c.o  -o cmTC_a8b6b  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_45db7/fast && /usr/bin/make -f CMakeFiles/cmTC_45db7.dir/build.make CMakeFiles/cmTC_45db7.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45db7.dir/STDC_HEADERS.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_45db7.dir/STDC_HEADERS.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c
+Linking C executable cmTC_45db7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45db7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_45db7.dir/STDC_HEADERS.c.o  -o cmTC_45db7  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_538e7/fast && /usr/bin/make -f CMakeFiles/cmTC_538e7.dir/build.make CMakeFiles/cmTC_538e7.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_538e7.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_538e7.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_538e7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_538e7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_538e7.dir/CheckIncludeFile.c.o  -o cmTC_538e7  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d45fa/fast && /usr/bin/make -f CMakeFiles/cmTC_d45fa.dir/build.make CMakeFiles/cmTC_d45fa.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d45fa.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d45fa.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d45fa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d45fa.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d45fa.dir/CheckIncludeFile.c.o  -o cmTC_d45fa  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_34f6c/fast && /usr/bin/make -f CMakeFiles/cmTC_34f6c.dir/build.make CMakeFiles/cmTC_34f6c.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34f6c.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_34f6c.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34f6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34f6c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_34f6c.dir/CheckIncludeFile.c.o  -o cmTC_34f6c  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_926bc/fast && /usr/bin/make -f CMakeFiles/cmTC_926bc.dir/build.make CMakeFiles/cmTC_926bc.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_926bc.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_926bc.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_926bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_926bc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_926bc.dir/CheckIncludeFile.c.o  -o cmTC_926bc  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a23d2/fast && /usr/bin/make -f CMakeFiles/cmTC_a23d2.dir/build.make CMakeFiles/cmTC_a23d2.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a23d2.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a23d2.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a23d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a23d2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a23d2.dir/CheckIncludeFile.c.o  -o cmTC_a23d2  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_11fd5/fast && /usr/bin/make -f CMakeFiles/cmTC_11fd5.dir/build.make CMakeFiles/cmTC_11fd5.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11fd5.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_11fd5.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_11fd5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11fd5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_11fd5.dir/CheckIncludeFile.c.o  -o cmTC_11fd5  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_20451/fast && /usr/bin/make -f CMakeFiles/cmTC_20451.dir/build.make CMakeFiles/cmTC_20451.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_20451.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_20451.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_20451
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20451.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_20451.dir/CheckIncludeFile.c.o  -o cmTC_20451  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9c0ad/fast && /usr/bin/make -f CMakeFiles/cmTC_9c0ad.dir/build.make CMakeFiles/cmTC_9c0ad.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c0ad.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_9c0ad.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9c0ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c0ad.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c0ad.dir/CheckIncludeFile.c.o  -o cmTC_9c0ad  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1e17a/fast && /usr/bin/make -f CMakeFiles/cmTC_1e17a.dir/build.make CMakeFiles/cmTC_1e17a.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1e17a.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_1e17a.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1e17a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e17a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1e17a.dir/CheckIncludeFile.c.o  -o cmTC_1e17a  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_89a87/fast && /usr/bin/make -f CMakeFiles/cmTC_89a87.dir/build.make CMakeFiles/cmTC_89a87.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89a87.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_89a87.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_89a87
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89a87.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_89a87.dir/CheckIncludeFile.c.o  -o cmTC_89a87  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4bb1a/fast && /usr/bin/make -f CMakeFiles/cmTC_4bb1a.dir/build.make CMakeFiles/cmTC_4bb1a.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bb1a.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_4bb1a.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4bb1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bb1a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4bb1a.dir/CheckIncludeFile.c.o  -o cmTC_4bb1a  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6de22/fast && /usr/bin/make -f CMakeFiles/cmTC_6de22.dir/build.make CMakeFiles/cmTC_6de22.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6de22.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_6de22.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6de22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6de22.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6de22.dir/CheckIncludeFile.c.o  -o cmTC_6de22  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/random.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43605/fast && /usr/bin/make -f CMakeFiles/cmTC_43605.dir/build.make CMakeFiles/cmTC_43605.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43605.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_43605.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_43605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43605.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_43605.dir/CheckIncludeFile.c.o  -o cmTC_43605  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0d2a4/fast && /usr/bin/make -f CMakeFiles/cmTC_0d2a4.dir/build.make CMakeFiles/cmTC_0d2a4.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d2a4.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_0d2a4.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0d2a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d2a4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0d2a4.dir/CheckIncludeFile.c.o  -o cmTC_0d2a4  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4db3c/fast && /usr/bin/make -f CMakeFiles/cmTC_4db3c.dir/build.make CMakeFiles/cmTC_4db3c.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4db3c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_4db3c.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4db3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4db3c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4db3c.dir/CheckSymbolExists.c.o  -o cmTC_4db3c  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a03e9/fast && /usr/bin/make -f CMakeFiles/cmTC_a03e9.dir/build.make CMakeFiles/cmTC_a03e9.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a03e9.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a03e9.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a03e9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a03e9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a03e9.dir/CheckSymbolExists.c.o  -o cmTC_a03e9  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_deb5a/fast && /usr/bin/make -f CMakeFiles/cmTC_deb5a.dir/build.make CMakeFiles/cmTC_deb5a.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_deb5a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_deb5a.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_deb5a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deb5a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_deb5a.dir/CheckSymbolExists.c.o  -o cmTC_deb5a  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nan exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2fff7/fast && /usr/bin/make -f CMakeFiles/cmTC_2fff7.dir/build.make CMakeFiles/cmTC_2fff7.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fff7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_2fff7.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2fff7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fff7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2fff7.dir/CheckSymbolExists.c.o  -o cmTC_2fff7  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a99ae/fast && /usr/bin/make -f CMakeFiles/cmTC_a99ae.dir/build.make CMakeFiles/cmTC_a99ae.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a99ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_a99ae.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a99ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a99ae.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_a99ae.dir/CheckSymbolExists.c.o  -o cmTC_a99ae  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_783b3/fast && /usr/bin/make -f CMakeFiles/cmTC_783b3.dir/build.make CMakeFiles/cmTC_783b3.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_783b3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_783b3.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_783b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_783b3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_783b3.dir/CheckSymbolExists.c.o  -o cmTC_783b3  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e28d2/fast && /usr/bin/make -f CMakeFiles/cmTC_e28d2.dir/build.make CMakeFiles/cmTC_e28d2.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e28d2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e28d2.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e28d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e28d2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e28d2.dir/CheckSymbolExists.c.o  -o cmTC_e28d2  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vprintf exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_face8/fast && /usr/bin/make -f CMakeFiles/cmTC_face8.dir/build.make CMakeFiles/cmTC_face8.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_face8.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_face8.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_face8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_face8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_face8.dir/CheckSymbolExists.c.o  -o cmTC_face8  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_766c4/fast && /usr/bin/make -f CMakeFiles/cmTC_766c4.dir/build.make CMakeFiles/cmTC_766c4.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_766c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_766c4.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_766c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_766c4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_766c4.dir/CheckSymbolExists.c.o  -o cmTC_766c4  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dfda3/fast && /usr/bin/make -f CMakeFiles/cmTC_dfda3.dir/build.make CMakeFiles/cmTC_dfda3.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfda3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_dfda3.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_dfda3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfda3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_dfda3.dir/CheckSymbolExists.c.o  -o cmTC_dfda3  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_17df4/fast && /usr/bin/make -f CMakeFiles/cmTC_17df4.dir/build.make CMakeFiles/cmTC_17df4.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17df4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_17df4.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17df4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17df4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_17df4.dir/CheckSymbolExists.c.o  -o cmTC_17df4  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uselocale exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1f6c/fast && /usr/bin/make -f CMakeFiles/cmTC_e1f6c.dir/build.make CMakeFiles/cmTC_e1f6c.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1f6c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e1f6c.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e1f6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1f6c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e1f6c.dir/CheckSymbolExists.c.o  -o cmTC_e1f6c  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_01996/fast && /usr/bin/make -f CMakeFiles/cmTC_01996.dir/build.make CMakeFiles/cmTC_01996.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01996.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_01996.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_01996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01996.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_01996.dir/CheckSymbolExists.c.o  -o cmTC_01996  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d74dc/fast && /usr/bin/make -f CMakeFiles/cmTC_d74dc.dir/build.make CMakeFiles/cmTC_d74dc.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d74dc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d74dc.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d74dc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d74dc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d74dc.dir/CheckSymbolExists.c.o  -o cmTC_d74dc  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba138/fast && /usr/bin/make -f CMakeFiles/cmTC_ba138.dir/build.make CMakeFiles/cmTC_ba138.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba138.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ba138.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ba138
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba138.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ba138.dir/CheckSymbolExists.c.o  -o cmTC_ba138  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_35d0d/fast && /usr/bin/make -f CMakeFiles/cmTC_35d0d.dir/build.make CMakeFiles/cmTC_35d0d.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35d0d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_35d0d.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_35d0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d0d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_35d0d.dir/CheckSymbolExists.c.o  -o cmTC_35d0d  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c0296/fast && /usr/bin/make -f CMakeFiles/cmTC_c0296.dir/build.make CMakeFiles/cmTC_c0296.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c0296.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c0296.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c0296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0296.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c0296.dir/CheckSymbolExists.c.o  -o cmTC_c0296  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrandom exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e1c58/fast && /usr/bin/make -f CMakeFiles/cmTC_e1c58.dir/build.make CMakeFiles/cmTC_e1c58.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1c58.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_e1c58.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e1c58
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1c58.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e1c58.dir/CheckSymbolExists.c.o  -o cmTC_e1c58  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/random.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrandom
+  return ((int*)(&getrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d055a/fast && /usr/bin/make -f CMakeFiles/cmTC_d055a.dir/build.make CMakeFiles/cmTC_d055a.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d055a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_d055a.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d055a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d055a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d055a.dir/CheckSymbolExists.c.o  -o cmTC_d055a  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_88c13/fast && /usr/bin/make -f CMakeFiles/cmTC_88c13.dir/build.make CMakeFiles/cmTC_88c13.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88c13.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_88c13.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88c13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c13.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_88c13.dir/CheckSymbolExists.c.o  -o cmTC_88c13  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8fc66/fast && /usr/bin/make -f CMakeFiles/cmTC_8fc66.dir/build.make CMakeFiles/cmTC_8fc66.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8fc66.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_8fc66.dir/CheckSymbolExists.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8fc66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8fc66.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8fc66.dir/CheckSymbolExists.c.o  -o cmTC_8fc66  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c78cb/fast && /usr/bin/make -f CMakeFiles/cmTC_c78cb.dir/build.make CMakeFiles/cmTC_c78cb.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c78cb.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_c78cb.dir/CheckIncludeFile.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c78cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c78cb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c78cb.dir/CheckIncludeFile.c.o  -o cmTC_c78cb  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ac493/fast && /usr/bin/make -f CMakeFiles/cmTC_ac493.dir/build.make CMakeFiles/cmTC_ac493.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac493.dir/SIZEOF_INT.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_ac493.dir/SIZEOF_INT.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_ac493
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac493.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ac493.dir/SIZEOF_INT.c.o  -o cmTC_ac493  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67ba6/fast && /usr/bin/make -f CMakeFiles/cmTC_67ba6.dir/build.make CMakeFiles/cmTC_67ba6.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67ba6.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_67ba6.dir/SIZEOF_INT64_T.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+Linking C executable cmTC_67ba6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ba6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_67ba6.dir/SIZEOF_INT64_T.c.o  -o cmTC_67ba6  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0fc60/fast && /usr/bin/make -f CMakeFiles/cmTC_0fc60.dir/build.make CMakeFiles/cmTC_0fc60.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0fc60.dir/SIZEOF_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_0fc60.dir/SIZEOF_LONG.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_0fc60
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0fc60.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0fc60.dir/SIZEOF_LONG.c.o  -o cmTC_0fc60  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_672af/fast && /usr/bin/make -f CMakeFiles/cmTC_672af.dir/build.make CMakeFiles/cmTC_672af.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_672af.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_672af.dir/SIZEOF_LONG_LONG.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c
+Linking C executable cmTC_672af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_672af.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_672af.dir/SIZEOF_LONG_LONG.c.o  -o cmTC_672af  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ed9e/fast && /usr/bin/make -f CMakeFiles/cmTC_3ed9e.dir/build.make CMakeFiles/cmTC_3ed9e.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ed9e.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_3ed9e.dir/SIZEOF_SIZE_T.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c
+Linking C executable cmTC_3ed9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ed9e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3ed9e.dir/SIZEOF_SIZE_T.c.o  -o cmTC_3ed9e  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_30998/fast && /usr/bin/make -f CMakeFiles/cmTC_30998.dir/build.make CMakeFiles/cmTC_30998.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30998.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE   -o CMakeFiles/cmTC_30998.dir/SIZEOF_SSIZE_T.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c
+Linking C executable cmTC_30998
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30998.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_30998.dir/SIZEOF_SSIZE_T.c.o  -o cmTC_30998  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2aa17/fast && /usr/bin/make -f CMakeFiles/cmTC_2aa17.dir/build.make CMakeFiles/cmTC_2aa17.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2aa17.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE_ATOMIC_BUILTINS -fPIE   -o CMakeFiles/cmTC_2aa17.dir/src.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2aa17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2aa17.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE_ATOMIC_BUILTINS    -rdynamic CMakeFiles/cmTC_2aa17.dir/src.c.o  -o cmTC_2aa17  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b150e/fast && /usr/bin/make -f CMakeFiles/cmTC_b150e.dir/build.make CMakeFiles/cmTC_b150e.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b150e.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -DHAVE___THREAD -fPIE   -o CMakeFiles/cmTC_b150e.dir/src.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b150e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b150e.dir/link.txt --verbose=1
+/usr/bin/cc  -DHAVE___THREAD    -rdynamic CMakeFiles/cmTC_b150e.dir/src.c.o  -o cmTC_b150e  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
+Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e2878/fast && /usr/bin/make -f CMakeFiles/cmTC_e2878.dir/build.make CMakeFiles/cmTC_e2878.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2878.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS -fPIE   -o CMakeFiles/cmTC_e2878.dir/src.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e2878
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2878.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DREENTRANT_WORKS    -rdynamic CMakeFiles/cmTC_e2878.dir/src.c.o  -o cmTC_e2878  -lm 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	/* uClibc toolchains without threading barf when _REENTRANT is defined */
+	#define _REENTRANT 1
+	#include <sys/types.h>
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2c6b1/fast && /usr/bin/make -f CMakeFiles/cmTC_2c6b1.dir/build.make CMakeFiles/cmTC_2c6b1.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c6b1.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS -fPIE   -o CMakeFiles/cmTC_2c6b1.dir/src.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2c6b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c6b1.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DBSYMBOLIC_WORKS    -rdynamic CMakeFiles/cmTC_2c6b1.dir/src.c.o  -o cmTC_2c6b1  -lm -Wl,-Bsymbolic-functions 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test VERSION_SCRIPT_WORKS succeeded with the following output:
+Change Dir: /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_71926/fast && /usr/bin/make -f CMakeFiles/cmTC_71926.dir/build.make CMakeFiles/cmTC_71926.dir/build
+make[1]: Entering directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71926.dir/src.c.o
+/usr/bin/cc -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS -fPIE   -o CMakeFiles/cmTC_71926.dir/src.c.o   -c /home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71926
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71926.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes -DVERSION_SCRIPT_WORKS    -rdynamic CMakeFiles/cmTC_71926.dir/src.c.o  -o cmTC_71926  -lm -Wl,--version-script,/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/check-version-script.sym 
+make[1]: Leaving directory '/home/finlay/Documents/Applications/IOTech_exercise/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	
